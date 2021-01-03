@@ -78,6 +78,17 @@ int bshuf_using_SSE2(void);
  */
 int bshuf_using_AVX2(void);
 
+/* ---- bshuf_using_NEON ----
+ *
+ * Whether routines where compiled with the NEON
+ *
+ * Returns
+ * -------
+ *  1 if using NEON, 0 otherwise.
+ *
+ */
+int bshuf_using_NEON(void);
+
 
 /* ---- bshuf_default_block_size ----
  *
